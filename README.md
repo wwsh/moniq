@@ -50,7 +50,7 @@ Check out the **spec** folder to learn about the designed class responsibilities
 Implementation should be SOLID.
 
 ### Testing
-Each module and service can be easily decoupled thanks to 100% dependency conrol.
+Each module and service can be easily decoupled thanks to 100% dependency control.
 It is very convenient to use the built-in VFS for debugging and testing purposes.
 
 ### TODO
