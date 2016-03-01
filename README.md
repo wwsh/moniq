@@ -7,7 +7,7 @@ Current version: 1.0.
 This demo version scans given path for files, creates a collection and dumps all sorted data to mongo. And that's just it.
 
 ## Requirements
-1. A media file collection compatible with the standards (@see [here](docs/SPECS.md)).
+1. A media file collection compatible with the standards (@see [here](doc/SPECS.md)).
 2. A mongoDB service running on default port (configurable in config.yml)
 
 ## Installation
@@ -38,7 +38,7 @@ Example run against real media collection:
     php bin/console moniq:scan /media/jack/1TB/music
 
 ## Media directory and file naming standards
-For more information on this topic, refer to the [docs](docs/SPECS.md) or contact me directly at <contact@wwsh.io> .
+For more information on this topic, refer to the [docs](doc/SPECS.md) or contact me directly at <contact@wwsh.io> .
 
 ## Internals
 
