@@ -1,0 +1,90 @@
+<?php
+
+namespace AppBundle\Document;
+
+use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
+
+/**
+ * Class Production
+ * @ODM\Document
+ */
+class Production
+{
+    /**
+     * @ODM\Id(strategy="auto")
+     */
+    private $id;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $artist;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $title;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $edit;
+
+    /**
+     * @ODM\Integer
+     * @var int
+     */
+    private $year;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $cat;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $lyrics;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $music;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $arranger;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $publisher;
+
+    /**
+     * @ODM\String
+     * @var string
+     */
+    private $time;
+
+    /**
+     * @ODM\Integer
+     * @var int
+     */
+    private $count;
+
+    /**
+     * @ODM\Boolean
+     * @var boolean
+     */
+    private $sampler;
+
+}

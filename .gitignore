@@ -1,0 +1,7 @@
+.idea
+.git
+vendor
+web
+var
+bin
+app/config/parameters.yml
