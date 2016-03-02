@@ -17,7 +17,7 @@ This demo version scans given path for files, creates a collection and dumps all
 ## Launching
 Example test run on virtual filesystem:
 
-    php bin/console moniq:scan --filesystem=vfs --definition=src/AppBundle/Resources/vfs/example.json /music
+    php bin/console moniq:scan --filesystem=vfs --definition=src/MoniqBundle/Resources/vfs/example.json /music
 
 Output:
 

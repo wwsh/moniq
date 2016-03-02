@@ -5,5 +5,5 @@ parameters:
 
 services:
     app.storage_driver.mongo:
-        class: AppBundle\Storage\Driver\Mongo
+        class: MoniqBundle\Storage\Driver\Mongo
         arguments: [ "@doctrine.odm.mongodb.document_manager" ]
